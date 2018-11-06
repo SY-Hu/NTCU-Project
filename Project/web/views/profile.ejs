@@ -1,0 +1,17 @@
+<% include partials/head %>
+
+  <body>
+    <div class="col-sm-8 col-sm-offset-2">
+      <div class="jumbotron text-center">
+        <h1 class=" fa fa-user"> Profile</h1><br>
+        <span>
+          <strong>username</strong>: <%= suser.username %><br>
+          <strong>password</strong>: <%= suser.password %><br>
+          <strong>email</strong>: <%= suser.email %>
+        </span><br>
+        <span class="fa fa-sign-out"><a href="/logout"> Sign out</a></span>
+        <hr>
+      </div>
+    </div>
+  </body>
+  </html>

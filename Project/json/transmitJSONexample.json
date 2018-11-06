@@ -1,0 +1,44 @@
+///// Basic Ver. 1
+/////////// Net
+///// Discover pack 
+// broadcast
+{
+    "no":1,
+    "type":"discover",
+    "context":{
+        "id":"123456" // for example , maype use hash or user assign
+        "name":"CarMaster",
+        "type":"masterCar", // masterCar , slaveCar , side
+    }
+}
+
+///// Hello message // later
+{
+    "no":1,
+    "type":"hello"
+}
+
+///// Car command pack
+// to one
+{
+    "no":1,
+    "type":"carCommand"
+    "context":{
+        "command":"Go"
+        "time":0 // optional
+    }
+}
+
+// "repeat": false --> for car inside
+
+/////////// Car inside
+///// toSend
+{
+    "type":"carCommand"
+    "context":{
+        "command":"Go"
+        "time":0 // optional
+    }
+}
+
+///// received

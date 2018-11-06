@@ -1,0 +1,29 @@
+GPIO table
+BCM     Function
+1
+2       X
+3       X
+4       ain2
+5       ain1
+6
+7       ledLeft
+8
+9
+10
+11
+12      ledRight
+13      ain3
+14      X
+15      X
+16      DHT11
+17      DistanceEcho 2
+18      DistanceTrigger 1
+19      DistanceEcho 1
+20      DistanceTrigger 1
+21      readlineL
+22      readlineM
+23      readlineR
+24      ledDisLeft
+25      ledDisRight
+26
+27      ain4
